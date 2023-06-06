@@ -1,0 +1,46 @@
+.container {
+    margin: 18% auto;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+}
+h3 {
+    text-align: center;
+}
+body form div input {
+    align-content: center;
+    width: 200px;
+    padding: 5px;
+    border: 1 px solid black;
+}
+label {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+    color: black;
+}
+input[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+    background-color: purple;
+    color:white;
+    border: none;
+    margin-top: 10px;
+    border-radius:15px ;
+}
+input[type="submit"]:hover {
+    transition: 300ms;
+    background-color: blueviolet;
+}
+a {
+    text-decoration: underline;
+    font-size: 1.1em;
+    color: purple;
+    text-align: center;
+}
+a:hover {
+    color: blueviolet;
+    padding: 5px;
+    border: 10px;
+}

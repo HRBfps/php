@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h3>Login</h3>
+        <form name="log in" method="post" action="processa_login.php">
+            <div class="form_group">
+                <label for="usuario">Usuário:</label>
+                <input type="text" name="usuario" size="30" maxlenght="30" required>
+            </div>
+            <div class="form_group">
+                <label for="senha">Senha:</label>
+                <input type="password" name="usuario" size="20" maxlength="20" required>
+            </div>
+            <input type="submit" name="acessar" value="Acessar">
+        </form>
+        <a href="criar_conta.php">
+        <p>Não tem cadastro?</p>
+        </a>
+    </div>
+</body>
+</html>
