@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.body {
+    font-size: 40px;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.input {
+    padding: 20px;
+    background-color: blueviolet;
+
+}
+.body2 {
+    width: 100vw;
+    height: 100vh;
+    font-size: 40px;
+    display: block;
+    text-align: center;
+}
